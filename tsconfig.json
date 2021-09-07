@@ -13,15 +13,13 @@
     "moduleResolution": "Node",
     "resolveJsonModule": true,
     "isolatedModules": true,
+    "experimentalDecorators": true,
     "noEmit": true,
     "jsx": "react",
+    "baseUrl": "./",
     "paths": {
-      "@src/*": ["./src/*"],
-      "@utils/*": ["./src/utilities/*"],
-      "@components/*": ["./src/components/*"],
-      "@services/*": ["./src/services/*"],
-      "@pages/*": ["./src/pages/*"]
-    }
+      "@/*": ["./src/*"]
+    },
   },
   "include": ["./src"],
   "exclude": ["node_modules"]
