@@ -1,3 +1,4 @@
+import 'mooli-mobile/dist/mooli-mobile.css';
 import './index.css';
 
 import React from 'react';

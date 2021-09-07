@@ -1,5 +1,6 @@
 import './App.css';
 
+import { Button } from 'mooli-mobile';
 import React, { useState } from 'react';
 
 import logo from './logo.svg';
@@ -17,9 +18,9 @@ function App() {
         </p>
 
         <div className="body">
-          <button onClick={() => setCount((count) => count + 1)}>
+          <Button onClick={() => setCount((count) => count + 1)}>
             🪂 Click me : {count}
-          </button>
+          </Button>
 
           <p> Don&apos;t forgot to install Eslint and Prettier in Your Vscode.</p>
 
